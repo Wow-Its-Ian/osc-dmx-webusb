@@ -1,0 +1,48 @@
+{
+	"name": "osc-test",
+	"main": "index.js",
+	"version": "0.1.1",
+	"description": "Example of how to use osc.js in a web browser.",
+	"author": "Colin Clark",
+	"homepage": "http://flockingjs.org/",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/colinbdclark/osc.js-examples.git"
+	},
+	"readmeFilename": "README.md",
+	"bugs": "https://github.com/colinbdclark/osc.js/issues",
+	"license": "(MIT OR GPL-2.0)",
+	"scripts": {
+		"watch": "webpack --config webpack.config.js --watch",
+		"start": "node index.js"
+	},
+	"keywords": [
+		"Open Sound Control",
+		"OSC",
+		"sound",
+		"audio",
+		"music",
+		"Flocking"
+	],
+	"dependencies": {
+		"express": "4.17.1",
+		"osc": "2.4.0",
+		"udmx": "^0.1.0",
+		"webusb": "^2.2.0",
+		"webusb-dmx512-controller": "^1.0.7",
+		"ws": "7.2.1"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.13.8",
+		"@babel/preset-env": "^7.13.9",
+		"@babel/preset-react": "^7.12.13",
+		"babel-loader": "^8.2.2",
+		"babelify": "^10.0.0",
+		"css-loader": "^5.1.1",
+		"sass-loader": "^11.0.1",
+		"style-loader": "^2.0.0",
+		"ts-loader": "^8.0.17",
+		"webpack": "^5.24.2",
+		"webpack-cli": "^4.5.0"
+	}
+}
